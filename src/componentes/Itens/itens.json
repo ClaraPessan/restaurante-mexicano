@@ -1,0 +1,68 @@
+[
+    {
+      "title": "Guacamole Especial",
+      "description": "Molho de guacamole, tamanho grande e tempero extra.",
+      "photo": "/assets/pratos/foto1.jpg",
+      "price": 59.99,
+      "id": 1,
+      "category": {
+        "id": 1,
+        "label": "Guacamole"
+      }
+    },
+    {
+      "title": "Burritos",
+      "description": "Burrito tradicional super recheado!",
+      "photo": "/assets/pratos/foto2.jpg",
+      "price": 34.90,
+      "id": 2,
+      "category": {
+        "id": 1,
+        "label": "Burritos"
+      }
+    },
+    {
+      "title": "Tacos",
+      "description": "Tacos mexicanos com carne em molho de tomate e salsa.",
+      "photo": "/assets/pratos/foto3.jpg",
+      "price": 58.00,
+      "id": 3,
+      "category": {
+        "id": 3,
+        "label": "Tacos"
+      }
+    },
+    {
+      "title": "Nachos",
+      "description": "Nachos com molho de tomate.",
+      "photo": "/assets/pratos/foto4.jpg",
+      "price": 42.00,
+      "id": 4,
+      "category": {
+        "id": 4,
+        "label": "Nachos"
+      }
+    },
+    {
+      "title": "Combo Tacos",
+      "description": "Combo de tacos deliciosos com molho",
+      "photo": "/assets/pratos/foto5.jpg",
+      "price": 136.00,
+      "id": 5,
+      "category": {
+        "id": 3,
+        "label": "Tacos"
+      }
+    },
+    {
+      "title": "Guacamole da casa",
+      "description": "Guacamole com nosso molho tradicional.",
+      "photo": "/assets/pratos/foto6.jpg",
+      "price": 45.00,
+      "id": 6,
+      "category": {
+        "id": 1,
+        "label": "Guacamole"
+      }
+    }
+  ]

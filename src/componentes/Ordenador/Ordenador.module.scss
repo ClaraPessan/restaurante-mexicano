@@ -1,0 +1,54 @@
+.ordenador {
+    align-items: center;
+    background-color: rgba(237, 71, 0, 0.85);
+    color: white;
+    border: none;
+    width: 200px;
+    border-radius: 30px;
+    margin: 25px 35px;
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+    padding: 5px 15px;
+    cursor: pointer;
+    position: relative;
+    &--ativo {
+      background-color: rgb(234, 43, 0);
+      color: white;
+    }
+    &__options {
+      display: none;
+      position: absolute;
+      left: 0;
+      flex-direction: column;
+      top: 100%;
+      width: 100%;
+      &--ativo {
+        display: flex;
+      }
+    }
+    &__option {
+      align-items: center;
+      background-color: rgb(251, 134, 66);
+      border-top: 2px solid rgb(232, 14, 14);
+      box-sizing: border-box;
+      color: rgb(81, 21, 0);
+      font-weight: bold;
+      display: flex;
+      height: 35px;
+      justify-content: center;
+      width: inherit;
+      &:hover,
+      &--ativo {
+        background-color: rgb(254, 51, 0);
+        cursor: pointer;
+        color: white;
+      }
+    }
+  }
+
+@media (max-width: 558px) {
+    .ordenador {
+      width: 100%;
+    }
+}

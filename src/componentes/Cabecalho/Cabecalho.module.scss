@@ -1,0 +1,32 @@
+.cabecalho {
+    background-color: rgba(119, 0, 0, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+
+    &__informacoes {
+        display: flex;
+        gap: 40px;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .cabecalho {
+        padding: 15px 30px;
+        font-size: 1.20rem;
+        &__informacoes {
+            gap: 20px;
+            font-size: 0.90rem;
+        }
+    }
+}

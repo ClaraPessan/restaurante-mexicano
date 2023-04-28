@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Italiana', serif;
+  list-style: none;
+}
+
+body {
+  background-color: rgba(74, 0, 0, 1);
+}

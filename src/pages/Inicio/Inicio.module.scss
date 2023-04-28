@@ -1,0 +1,74 @@
+.cardapio {
+    color: white;
+    
+    .banner {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    
+        &__text {
+            position: absolute;
+            top: 70%; 
+            left: 70px;
+            font-size: 2.5rem;
+            max-width: 400px;
+            transform: translateY(-50%); 
+        }
+    
+        &__img {
+            border-radius: 15px;
+            width: 95%;
+            max-height: 360px;
+            margin: 20px;
+        }
+    }
+
+    &__titulo {
+        margin: 8px 37px;
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
+
+    &__filtros {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 678px) {
+    .cardapio{        
+        .banner {
+            &__text {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 558px) {
+    .cardapio{        
+        &__filtros {
+            flex-direction: column;
+            justify-content: center;
+            margin: 1px 40px;
+        }
+        .banner {
+            &__text {
+                left: 30px;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .cardapio{        
+        .banner {
+            &__text {
+                font-size: 1rem;
+                left: 20px;
+            }
+        }
+    }
+}

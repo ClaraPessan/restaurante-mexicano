@@ -1,0 +1,33 @@
+.buscador {
+    background-color: rgba(119, 0, 0, 1);
+    width: 232px;
+    border-radius: 30px;
+    margin: 25px 35px;
+
+    input {
+        background-color: transparent;
+        border: none;
+        color: white;
+        padding: 5px 15px;
+        outline: none;
+        font-size: 1rem;
+
+        &::placeholder {
+            color: white;
+        }
+    }
+}
+
+@media (max-width: 558px) {
+    .buscador{ 
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;      
+        width: 100%;
+        margin: 15px 0 0 0;
+
+        &__lupa {
+            margin-right: 15px;
+        }
+    }
+}
